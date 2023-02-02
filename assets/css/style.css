@@ -1,0 +1,115 @@
+
+body {
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0dc2e2;
+    color: black;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+#image-1 {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+    
+
+.boxes {
+        width: 50px;
+        border: 5px solid #0dc2e2;
+        padding: 100px;
+        margin: 40px;
+        flex-wrap: wrap;
+        background-color: black;
+        color: red;
+        
+}
+
+#First-Project { width: 8px;
+  border: 5px solid #0dc2e2;
+  padding: 100px;
+  margin: 10px;
+  flex-wrap: wrap;
+  background-color: black;
+  color: red; 
+}
+
+.about-me,
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e5c404;
+    color: #ffffff;
+}
+
+.about-me h2,
+.work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly}
+
+.footer h1 {
+    font-size: 40px;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0.5em;
+    padding: 20px;
+}
+
+.flex-item{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: row;
+    
+
+}
+
+.flex-item:first-child{
+    flex-basis:100%;
+
+    
+}
