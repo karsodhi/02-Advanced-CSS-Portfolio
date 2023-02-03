@@ -44,11 +44,14 @@ p {
 #image-1 {
     float: right;    
      margin: 0 0 0 15px;
+     background-image: url("../images/image-1.jpg");
+     width:400;
+     height:600;
     }
     
 
 .boxes {
-        width: 412px;
+        width: 150px;
         border: 5px solid #0dc2e2;
         padding: 100px;
         margin: 40px;
@@ -56,6 +59,13 @@ p {
         background-color: black;
         color: red;
         
+        
+}
+.boxes:hover{
+    background-color: yellow;
+}
+#First-Project:hover{
+    background-color: yellow;
 }
 
 #First-Project { width: 8px;
