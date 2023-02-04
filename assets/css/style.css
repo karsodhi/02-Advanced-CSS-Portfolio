@@ -63,7 +63,7 @@ p {
 
 
 .boxes {
-    width: 43px;
+    width: 150px;
     border: 5px solid #0dc2e2;
     padding: 100px;
     margin: 40px;
@@ -87,13 +87,11 @@ p {
 }
 
 .boxes:hover {
-    -moz-box-shadow: #fcf8f8;
-    -webkit-box-shadow: #f8f6f6;
-    box-shadow: #000000;
+    background-color: #2d1194;
 }
 
 #First-Project:hover {
-    background-color: #970de2;
+    background-color:#2d1194;
 }
 
 #First-Project {
@@ -112,7 +110,7 @@ p {
 .work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 1000px;
+    height: 1500px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2d1194;
     color: #ffffff;
