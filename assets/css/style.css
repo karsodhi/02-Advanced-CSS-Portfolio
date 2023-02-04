@@ -1,13 +1,16 @@
-
 body {
     background-color: white;
 }
 
 .header {
-    padding: 20px;
+    padding: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #0dc2e2;
-    color: black;
+    background-image: url("https://blackmorepartnersinc.com/wp-content/uploads/2017/06/chicago-skyline-linkedIn-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    color: white;
 }
 
 .header h1 {
@@ -21,7 +24,8 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
+
 }
 
 
@@ -31,59 +35,95 @@ body {
     list-style-type: none;
 }
 
+.color {
+    color: white;
+}
+
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 p {
-    font-size: 20px;
-    color: black;
+    font-size: 40px;
+    color: white;
 }
+
+#font {
+    font-size: 80px;
+}
+
 
 #image-1 {
-    float: right;    
-     margin: 0 0 0 15px;
-     /* background-image: url("../images/image-1.jpg"); */
-     width:400;
-     height:600;
-    }
-    
+    float: right;
+    margin: 0 0 0 15px;
+    width: 400;
+    height: 600;
+}
+
 
 .boxes {
-        width: 150px;
-        border: 5px solid #0dc2e2;
-        padding: 100px;
-        margin: 40px;
-        flex-wrap: wrap;
-        background-color: black;
-        color: red;
-        
-        
-}
-.boxes:hover{
-    background-color: yellow;
-}
-#First-Project:hover{
-    background-color: yellow;
+    width: 150px;
+    border: 5px solid #0dc2e2;
+    padding: 100px;
+    margin: 40px;
+    flex-wrap: wrap;
+    color:red;
+    font-size: 35px;
+
+
 }
 
-#First-Project { width: 8px;
-  border: 5px solid #0dc2e2;
-  padding: 100px;
-  margin: 10px;
-  flex-wrap: wrap;
-  background-color: black;
-  color: red; 
+#second {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxL9YIL4J-f2lJLMgKK8MfjQ3P7yMJxRdwNg&usqp=CAU");
+    background-size: cover;
+}
+
+#third,
+#fourth,
+#fifth {
+    background-image: url("https://www.hudsontitlegroup.com/wp-content/uploads/2021/05/Coming-Soon-Light.png");
+    background-size: cover;
+}
+
+.boxes:hover {
+    -moz-box-shadow: #fcf8f8;
+    -webkit-box-shadow: #f8f6f6;
+    box-shadow: #000000;
+}
+
+#First-Project:hover {
+    background-color: #970de2;
+}
+
+#First-Project {
+    width: 8px;
+    border: 5px solid #0dc2e2;
+    padding: 100px;
+    margin: 10px;
+    flex-wrap: wrap;
+    color: red;
+    background-image: url("https://www.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg");
+    background-size: cover;
+    font-size: 30px;
 }
 
 .about-me,
 .work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 800px;
+    height: 1000px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #e5c404;
+    background-color: #2d1194;
+    color: #ffffff;
+}
+
+.footer {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #10100f;
     color: #ffffff;
 }
 
@@ -94,32 +134,31 @@ p {
 }
 
 .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly}
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
 
 .footer h1 {
     font-size: 40px;
 }
 
-.flex-container{
-    display:flex;
+.flex-container {
+    display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     margin: 0.5em;
     padding: 20px;
 }
 
-.flex-item{
-    display:flex;
+.flex-item {
+    display: flex;
     align-items: flex-end;
     flex-direction: row;
-    
+
 
 }
 
-.flex-item:first-child{
-    flex-basis:100%;
-
-    
+.flex-item:first-child {
+    flex-basis: 100%;
 }
