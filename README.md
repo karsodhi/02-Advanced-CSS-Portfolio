@@ -13,4 +13,4 @@ I worked with a tutor for this assignment through the tutoring session for help 
 
 
 # Screenshots 
-(./assets/images/Portfolio.jpg)
+(./assets/images/portfolio.png)
