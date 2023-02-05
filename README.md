@@ -10,7 +10,9 @@ This is the second HW challenge that was presented to us.  I created a web portf
 I worked with a tutor for this assignment through the tutoring session for help and guidance as well as the TA's help from class.
 
 # Links
+https://github.com/karsodhi/02-Advanced-CSS-Portfolio
 
+https://karsodhi.github.io/02-Advanced-CSS-Portfolio/
 
 # Screenshots 
-(./assets/images/portfolio.png)
+![The portfolio page includes a navigation bar, links to projects, and a contact me section in the footer](./assets/images/portfolio.png)

@@ -164,22 +164,22 @@ p {
 
 @media screen and (max-width: 992px) {
     .boxes {
-      width: 50%;
-    }
-
-    .header {
-      background: #772014;
-    }
+      width: 25%;
+      display:flex;
+      flex-wrap: wrap
   }
   
   
   @media screen and (max-width: 768px) {
     .boxes {
-      width: 100%;
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
     }
-    
-.header {
-      background: #8ac4ff;
-    }
-  }
   
+  @media screen and (max-width: 576px) {
+    .boxes {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
