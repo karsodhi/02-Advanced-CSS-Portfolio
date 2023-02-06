@@ -70,10 +70,19 @@ p {
     flex-wrap: wrap;
     color:red;
     font-size: 35px;
+    flex-grow: 1;
+    padding-left: 30px;
 
 
 }
 
+.boxes:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+  }
+
+#First-Project:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+} 
 #second {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxL9YIL4J-f2lJLMgKK8MfjQ3P7yMJxRdwNg&usqp=CAU");
     background-size: cover;
@@ -82,7 +91,7 @@ p {
 #third,
 #fourth,
 #fifth {
-    background-image: url("https://www.hudsontitlegroup.com/wp-content/uploads/2021/05/Coming-Soon-Light.png");
+    background-image: url("https://digitalcommons.georgiasouthern.edu/context/jesuit-gallery205/article/1000/type/native/viewcontent");
     background-size: cover;
 }
 
