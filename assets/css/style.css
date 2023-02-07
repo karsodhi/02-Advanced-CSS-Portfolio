@@ -170,25 +170,25 @@ p {
     flex-basis: 100%;
 }
 
-
-@media screen and (max-width: 992px) {
-    .boxes {
-      width: 25%;
-      display:flex;
-      flex-wrap: wrap
-  }
-  
   
   @media screen and (max-width: 768px) {
+    body {
+        background-color: pink;
+    }
     .boxes {
       width: 50%;
       display: flex;
       flex-wrap: wrap;
     }
-  
+
+}
   @media screen and (max-width: 576px) {
+    body {
+        background-color: purple;
+    }
     .boxes {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
+}
